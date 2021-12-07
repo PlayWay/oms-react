@@ -1,10 +1,10 @@
 {
   "parser": "babel-eslint",
   "extends": [
-    "standard",
+//    "standard",
     "standard-react",
-    "plugin:prettier/recommended",
-    "prettier/standard",
+//    "plugin:prettier/recommended",
+//    "prettier/standard",
     "prettier/react"
   ],
   "env": {

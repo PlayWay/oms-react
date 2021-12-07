@@ -13,11 +13,13 @@
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
     "react-scripts": "file:../node_modules/react-scripts",
+    "antd": "file:../node_modules/antd",
+    "axios": "file:../node_modules/axios",
+    "node-sass": "file:../node_modules/node-sass",
+    "react-draggable": "file:../node_modules/react-draggable",
     "oms-react": "file:.."
   },
-  "devDependencies": {
-    "@babel/plugin-syntax-object-rest-spread": "^7.8.3"
-  },
+
   "eslintConfig": {
     "extends": "react-app"
   },

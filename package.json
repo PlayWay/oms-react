@@ -4,7 +4,7 @@
   "description": "oms basic react lib",
   "author": "Dmitriy Gridnev",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/PlayWay/oms-react",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -24,7 +24,15 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "antd": "*",
+    "axios": "*",
+    "node-sass": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-draggable": "*",
+    "react-redux": "*",
+    "redux": "*",
+    "redux-thunk": "*"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",
@@ -45,7 +53,18 @@
     "prettier": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.4.1",
+    "@babel/plugin-syntax-object-rest-spread": "^7.8.3",
+    "@testing-library/jest-dom": "^5.16.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "antd": "^4.17.2",
+    "axios": "^0.24.0",
+    "node-sass": "^6.0.1",
+    "react-draggable": "^4.4.4",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1"
   },
   "files": [
     "dist"

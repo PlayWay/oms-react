@@ -24,6 +24,27 @@ class Example extends Component {
   }
 }
 ```
+## Компоненты
+
+* **CustomModal** (окно с возможность перемещения(draggble), создано с помощью antd и react-draggable)
+
+## Функции
+
+* `ErrorAlert`(Вставляет в DOM модальное окно ошибки(сообщение, и техническое описание))
+* `MessageAlert`(Вставляет в DOM,Тостер(success/info/warn/error))
+
+----------------------
+
+* `axiosData`(общая функция работы с Api)
+
+## Кастомные Хуки
+
+useRequest,useHover,useInput,useScroll,useDebounce
+
+## AppReducer(redux-store)
+
+Модуль redux "app"(types/reducer/actions):
+`loading: { status: false, percentProgress: 0 }, init_data: {}`
 
 ## License
 
